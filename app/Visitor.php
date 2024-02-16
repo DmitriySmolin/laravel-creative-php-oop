@@ -4,6 +4,8 @@ namespace App;
 
 class Visitor
 {
+    use hasRest;
+  
     // Фиксированные значения
     // Строки
     // Числа/Флоат
