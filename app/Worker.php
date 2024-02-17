@@ -9,6 +9,8 @@ abstract class Worker implements WorkerInterface
     // Числа/Флоат
     // Булевые значения
     // Null
+    public $publicParentProp;
+
     private string $name;
     private int $age;
 
@@ -17,7 +19,7 @@ abstract class Worker implements WorkerInterface
     private int $experience;
 
     //Массивы
-    public array $hours;
+    private array $hours;
 
     // Динамические значения
     // Функции
